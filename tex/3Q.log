@@ -1,0 +1,168 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.6.8)  16 JUN 2017 14:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**3Q.tex
+(./3Q.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/igo/igo.sty
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+++++++++++++ igo.sty - January 2007 - 0.62 +++++++++++ 
++ A TeX package to manipulate Go games and positions + 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/igo/repeat.tex
+Loading loop macro, version 0.93
+\REPdepth=\count87
+)
+\igo@count=\count88
+\igo@endwhile=\count89
+\igo@fontsize=\count90
+\igo@minrow=\count91
+\igo@maxrow=\count92
+\igo@mincol=\count93
+\igo@maxcol=\count94
+\igo@box=\box26
+\igo@dimen=\dimen103
+\igo@board=\count95
+\igo@boardlabelnum=\count96
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count97
+\lst@gtempboxa=\box27
+\lst@token=\toks15
+\lst@length=\count98
+\lst@currlwidth=\dimen104
+\lst@column=\count99
+\lst@pos=\count100
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count101
+\lst@lineno=\count102
+\lst@maxwidth=\dimen107
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count103
+\lst@skipnumbers=\count104
+\lst@framebox=\box28
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (./3Q.aux)
+\openout1 = `3Q.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+\c@lstlisting=\count105
+ [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./3Q.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `3Q.toc'.
+
+\REPcounti=\count106
+\REPtoksi=\toks16
+\REPwtesti=\toks17
+\REPutesti=\toks18
+\REPcountii=\count107
+\REPtoksii=\toks19
+\REPwtestii=\toks20
+\REPutestii=\toks21
+
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+ [1
+
+]
+[2] [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+ [4]
+[5]
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [6]
+[7] [8] [9]
+Underfull \vbox (badness 5847) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 7907) has occurred while \output is active []
+
+ [12]
+[13] [14
+
+] (./3Q.aux) ) 
+Here is how much of TeX's memory you used:
+ 2262 strings out of 493014
+ 32227 string characters out of 6133337
+ 183440 words of memory out of 5000000
+ 5853 multiletter control sequences out of 15000+600000
+ 6616 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 26i,4n,32p,377b,1646s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/jared/.texlive2016/texmf-var/fonts/pk/ljfour/igo/igowhite
+ii10.600pk> </home/jared/.texlive2016/texmf-var/fonts/pk/ljfour/igo/igoblackii1
+0.600pk> </home/jared/.texlive2016/texmf-var/fonts/pk/ljfour/igo/igoblackiii10.
+600pk> </home/jared/.texlive2016/texmf-var/fonts/pk/ljfour/igo/igowhitei10.600p
+k> </home/jared/.texlive2016/texmf-var/fonts/pk/ljfour/igo/igoblacki10.600pk> <
+/home/jared/.texlive2016/texmf-var/fonts/pk/ljfour/igo/igo10.600pk></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on 3Q.pdf (15 pages, 149158 bytes).
+PDF statistics:
+ 243 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

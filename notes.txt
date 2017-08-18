@@ -1,0 +1,19 @@
+sudo add-apt-repository ppa:jonathonf/texlive
+sudo apt install texlive-full
+wget http://mirrors.ctan.org/fonts/igo.zip
+copy igo to /usr/share/texlive/texmf-dist/tex/latex/
+copy fonts to /usr/share/texlive/texmf-dist/fonts/source/igo
+sudo mktexlsr
+
+Changed a bunch of stuff on www-data
+Make sure /var/www/html is owned by www-data
+Added /home/www-data and /bin/bash to /etc/passwd
+Added environment variables in index.py
+    HOME (this is when it started working)
+    TFMFONTS (home probably more important)
+Copied hidden .texmf-var from /home/ubuntu to /home/www-data
+
+edit /etc/apache2/apache2.conf to forbid directory listing
+
+scp sgf2latex.tar.gz
+

@@ -1,0 +1,534 @@
+(;FF[4]
+GM[1]
+DT[2017-02-14]
+PC[OGS: http://online-go.com/game/review/251239]
+PB[wren42]
+PW[Lio]
+BR[6k]
+WR[5k]
+CP[online-go.com]
+RE[B+R]
+SZ[19]
+KM[6.5]
+RU[japanese]
+
+;B[pd]
+;W[pp]
+;B[cd]
+;W[cp]
+;B[ic]C[Chinese opening
+]
+
+;W[qf]
+;B[nc]
+;W[pi]
+;B[ep]C[I opt for high approach to help counter whites 4th line framework.  Leela agrees, with 75%+ effort going onto e4. 
+]
+
+;W[hp]C[wide pincer from white aims to continue building a high, influence based moyo. 
+]
+
+(;B[en]C[1 point jump is never wrong, or so they say...
+
+d7 might have been preferable, however. 
+]
+
+;W[cm]C[2 point jump on 3rd line is usually ok, but this feels a bit slack to me for some reason.
+]
+
+(;B[el]C[Using miai to pressure. I get to threaten to block white in at c9 or counter attack h4.  
+
+Leela again prefers leaning harder on the left side with d8. 
+]
+
+;W[ck]C[white prefers not to be blocked in, so I get to turn my attention to h4. 
+]
+
+;B[kp]C[I chose a wide counter pincer.  I'm aiming to either approach the corner o3 or attack h4 further.  
+]
+
+(;W[mp]C[white blocks from the right, again very high.  I think this would be better on the 3rd line.  Leela agrees, suggesting n3.  
+]
+
+(;B[lo]C[I was hoping to pressure the right and keep sente to attack h4, but this was misguided.  
+
+Leela does not even consider this move, opting for the simple 1 point jump.  White 
+]
+
+(;W[jo]C[leela prefers h7.  this move doesn't accomplish much for white.
+
+
+]
+
+(;B[iq]C[leela believes this idea was correct (cut under) but that the direct attachment at k4 would be stronger. 
+]
+
+(;W[hn]
+;B[hq]C[I cut under, making a base and moving towards connecting my groups.  I'm pretty happy with this result. 
+]
+
+;W[hl]
+;B[dj]C[white runs, and I apply pressure on the left to continue the attack. 
+]
+
+;W[ek]C[This looks like a mistake to me.  Leela suggests push at d9 and cut to avoid the ladder. 
+]
+
+;B[dk]
+;W[dl]
+;B[dm]
+;W[cl]
+;B[cn]
+;W[bn]
+(;B[co]C[in retrospect, I think this was a mistake. I ended up getting less good shape than I should have given white's blunder. 
+]
+
+;W[bo]
+;B[dp]
+;W[cq]
+;B[fk]C[I end of getting quite a bit of thickness facing white's weak center group.  I felt good about this result at the time, though I still think I could have gotten more from it. 
+
+leela thinks I should have omitted the moves at c5 and d4, which ultimately just gave my opponent better shape in the corner. 
+]
+
+;W[hj]
+;B[fi]
+;W[hh]
+;B[gg]C[at this point, c10 has become VERY big.  I was eyeing it in the game but felt I needed to counteract white's growing influence.  However, I think I ultimately waited too long. 
+]
+
+;W[lm]C[white decides to cap me and try to build a moyo in the center.  this is likely the wrong direction.  building territory with a framework like this is usually ineffecient.  
+
+However it is a big area he's threatening, so I decide I must invade. 
+]
+
+;B[qn]C[maybe a high move would have been better in this case.  
+]
+
+;W[qo]
+;B[pn]
+;W[qk]
+;B[oo]
+;W[op]
+;B[mo]C[I was pretty pleased with this connection sequence.
+]
+
+;W[ol]C[this move is gote for white, and tries too hard to build territory in the center.  white should have played c10 or j14 for a pure territorial play, or invaded deeper. 
+]
+
+(;B[if]C[Leela likes this move, and gives j14 a 56% winrate.
+
+however, c10 also rates very highly, and looking back I still feel this might have been the best timing to take it. 
+]
+
+;W[cc]C[a good probe. 
+]
+
+(;B[bc]C[leela prefers the block on the other side. 
+]
+
+;W[dc]
+;B[fc]C[white tenukis here, but this was maybe premature. 
+]
+
+(;W[cj]
+(;B[ch]C[I was concerned about white connecting out with a sacrifice in the corner, but this move leaves very nasty aji for the future. 
+]
+
+(;W[jg]C[white decides to leave the corner aji and move to the center again.
+
+this move is slow, however, and gives black sente to fix his shape. 
+]
+
+(;B[mf]C[unfortunately, I got greedy, and played a very slack move.  while this threatens white's center, it is far too much for BLack to hope for white to play defensively with something like n12.  I had wanted to make white defend, then push at k14, sealing off a huge side, but this was far too ambitious. 
+]
+
+;W[jc]C[white's response is very clever, aiming to attach and sacrifice some stones to get a living invasion, or connect out. 
+]
+
+;B[jd]
+;W[kd]
+;B[kc]
+;W[jb]
+;B[kb]
+;W[bb]C[I fell into white's trap.  I now cannot both kill the corner and his invasion. 
+]
+
+;B[bd]
+(;W[eb]
+(;B[fb]
+;W[ab]C[white is alive, and I'm in deep trouble.  White now has several ways to destroy my center territory, and I still have lots of Aji on my bottom groups.  There is way too much to do, and too little time. 
+
+My winrate according to leela has dropped rom almost 60% when I played j14 to under 50%.  I'm behind. 
+
+]
+
+;B[mm]C[So, I embark on a bold plan. I need to make several things happen in sente in order to have a chance.  This probe starts the gambit, and allows me to threaten the corner without worrying about getting cut at o5.
+]
+
+;W[ml]
+;B[qq]C[with this invasion, I am threatening to either come under with s5, or peep at o3. white is in a tricky position, as his stones may not survive if he loses his base. 
+]
+
+;W[qp]
+;B[nq]
+;W[np]
+;B[pr]
+;W[or]
+;B[rr]C[This exchange was extremely tense, as I wasn't certain I would build life.
+]
+
+;W[pq]
+;B[rp]
+;W[ro]
+;B[sq]
+;W[rm]C[here, white bungles badly, as I had hoped.  THe threat of cutting off his white stones had him running scared, and he escapes, but gives up sente. 
+
+Now I've destroyed his corner and am free to continue the attack!
+
+note that leela still gives me only a 40% winrate.  I'm still deep in the woods. 
+]
+
+;B[ec]C[Another gambit.  I am hoping against hope that white makes a mistake here, and gives up sente again.  THere are several ways he can make life, but only a few end with him being contained, and my retaining sente. 
+]
+
+;W[ca]C[lucky! white chooses a shape that looks good, but has major flaws. 
+]
+
+;B[db]
+;W[ea]
+;B[dd]
+;W[cb]C[This way, I get to seal him in with sente, and can press the attack!
+
+The win % swung from 40% to 53% on this exchange.  It is such a small thing, but sente is so, so important.  these are the moves that are easy to miss, but can determine the outcome of a game. 
+]
+
+;B[fa]
+;W[da]
+;B[lh]C[my rear secured, it is time to fight!  it's a close game, and will hinge on the next exchanges. 
+]
+
+;W[lg]
+;B[mg]
+;W[mh]
+;B[kg]C[I don't think white expected this when he played m13, but I had read it out.  Leela gives this move 58%. I'm back in the game!
+]
+
+;W[li]
+;B[kh]
+;W[ki]
+;B[jh]
+;W[ji]
+;B[ih]
+;W[ii]C[white ends up playing for the center with a nice wrap.  I could have secured my side here, but I was still very worried about the aji at the d10 stones.  
+
+I felt like with the size of white's center, I needed to get d2, d11, and s16 to stay ahead.  
+]
+
+(;B[nh]
+;W[mi]
+;B[ko]
+;W[kn]
+;B[gp]C[I tried a few probing moves to retain sente, but overplayed my hand.  White isn't going to respond to save h4, even though I could kill it.  This was a blunder. 
+]
+
+;W[ig]C[white takes advantage of my aji
+]
+
+;B[kf]
+;W[hg]
+;B[hf]
+(;W[jf]C[this was silly.  why not atari first?
+]
+
+;B[je]
+;W[gh]
+;B[fg]
+;W[rd]C[good sente move.  white should now turn back to d11. 
+]
+
+;B[qc]
+(;W[oe]C[this shape is weird, and a little overextended. 
+]
+
+;B[pe]
+;W[pf]
+;B[of]
+;W[og]
+;B[nf]C[here I was hoping to trap white if he got greedy. 
+]
+
+(;W[oh]C[alas white, saw through it. 
+
+leela has a better solution, though: s17
+]
+
+;B[lq]C[sente. if I connect n4 I can also threaten to cut p3.  maybe white can ignore though if he plays something like d11. 
+]
+
+;W[mq]
+;B[di]C[looking at the endgame, I think I'm ahead by a handful of points, so I decide to connect. 
+
+Much to my surprise, white resigns!
+
+The final score is within 2-3 points, I think, with a good endgame, but perhaps my opponent didn't see a way through. 
+
+leela gives black at 75% winrate in this position, so perhaps the resignation is reasonable, though still early from a human Kyu perspective. 
+
+Overall, a well fought game with many subtle turning points!  
+
+I continue to struggle with leaving too much aji and being greedy for points when I don't need to be.  I need to learn to play more solidly and that defense is a good offense. 
+
+gg!
+]
+
+)(;W[ng]
+;B[pg]
+;W[oh]
+;B[re]
+;W[qe]
+;B[rf]
+(;W[rg]
+;B[qg]
+;W[qd]
+;B[rc]C[nice
+]
+
+)(;W[qg]
+;B[qd]
+;W[rg]
+;B[rc]
+))(;W[rc]
+))(;W[di]
+;B[ej]
+(;W[fh]
+;B[eh]
+;W[dh]
+;B[dg]
+;W[cg]
+)(;W[dh]
+;B[dg]
+;W[cg]
+;B[cf]
+;W[bg]
+;B[bh]
+;W[eg]
+;B[df]
+;W[fh]
+;B[ef]
+;W[gf]
+;B[eh]
+;W[ie]
+;B[he]
+;W[ke]C[whoops!
+
+danger lies this way. 
+]
+
+)))(;W[je]
+(;B[id]
+;W[jf]C[this sucks for me. 
+]
+
+;B[ke]
+;W[gh]
+;B[fg]
+)(;B[jf]
+;W[id]C[maybe I can just kill, though. 
+]
+
+;B[gh]
+;W[hi]
+;B[hc]
+)))(;B[hg]C[Leela thinks I should stop trying to be fancy and just take my huge side.  This is a TON of points, and in retrospect I should have just fixed my shape sooner. 
+]
+
+))(;B[ab]C[if I block to this side, white can connect out. 
+]
+
+(;W[ib]
+;B[hc]
+)(;W[id]
+;B[je]
+;W[hc]
+;B[ib]
+;W[hb]
+;B[ja]
+;W[fb]
+;B[cb]
+;W[db]
+(;B[ca]
+)(;B[ba]
+;W[gc]
+;B[fd]
+;W[ga]
+;B[ha]
+;W[ia]
+;B[da]
+;W[ea]
+;B[ha]C[white has way too many ko threats for me to kill this, and it probably isn't even his best line of play. 
+]
+
+(;W[fl]
+)(;W[np]
+)(;W[no]
+)))))(;W[fb]
+;B[gb]
+;W[eb]C[this is probably a little better. 
+]
+
+))(;B[jf]
+;W[kg]
+;B[be]C[Leela prefers a simple push and then returning to defend the corner, guaranteeing massive profit in the upper left.  White has little chance of coming back at this point.  
+]
+
+))(;W[ej]
+;B[di]
+;W[fl]
+;B[em]
+;W[fj]C[white can break out, cutting black's groups. 
+]
+
+;B[gk]
+;W[gj]
+;B[gl]
+;W[gm]
+;B[fm]
+;W[hk]
+;B[fl]
+;W[do]
+;B[dn]
+;W[fn]
+;B[eo]C[black is not happy. 
+]
+
+))(;B[di]
+;W[be]
+;B[bd]
+;W[ce]
+;B[dd]
+;W[ch]
+))(;W[dd]
+;B[bd]
+;W[fd]
+;B[gd]
+;W[ce]
+;B[be]
+;W[cf]
+;B[bf]
+;W[cg]C[this does not look fun for black. 
+]
+
+))(;B[dc]
+;W[dd]
+;B[ec]
+;W[ce]
+;B[bd]
+(;W[bc]
+;B[be]
+(;W[cf]
+(;B[bf]
+)(;B[ed]
+))(;W[ed]
+))(;W[ed]
+;B[be]
+;W[cf]
+;B[bf]
+;W[fc]
+;B[fb]
+;W[gb]C[this is too complicated to easily read out all variations. 
+]
+
+)))(;B[cj]C[black's corner is immense.  white will have to fight hard to make something comparable in the center, or invade. 
+]
+
+))(;B[fk]C[this allows me to still play c3 in the future, and is less over concentrated. 
+
+leela gives me a 58% win rate in this variation vs the real game.  This is a major swing for something I would not have noticed at all myself. 
+]
+
+(;W[cj]
+;B[di]
+;W[ch]
+;B[hj]C[black takes a commanding position in the center
+]
+
+)(;W[co]
+;B[dn]
+)))(;W[ip]
+;B[mo]
+;W[np]
+;B[hq]
+;W[gq]
+;B[jp]
+;W[gp]
+;B[er]
+;W[hr]
+;B[ir]
+;W[fr]
+;B[cq]
+))(;B[jp]
+;W[ip]
+;B[mo]
+;W[np]
+;B[jm]
+;W[hm]
+))(;W[hm]
+;B[cq]
+;W[bq]
+;B[dq]
+;W[fo]
+;B[eo]
+))(;B[kn]
+;W[hm]
+;B[cq]
+;W[bq]
+;B[dq]
+(;W[do]
+;B[eo]
+;W[jo]
+;B[ko]
+;W[jm]
+;B[ll]C[white makes shape and the fight roams into the center. 
+]
+
+)(;W[fo]
+;B[eo]
+;W[kl]
+;B[mn]
+;W[pn]
+;B[ml]C[Another possible variation
+]
+
+)))(;W[mq]
+))(;B[dl]
+;W[cl]
+;B[dk]
+;W[ck]
+;B[dj]
+;W[ci]
+;B[kp]C[This is a similar principle to what I ended up playing, but gives more immediate thickness. 
+]
+
+))(;B[dm]C[Leela likes this move, leaning more on the white corner and inviting a cut. 
+]
+
+;W[eo]
+;B[fo]
+;W[en]
+;B[cq]
+;W[cn]
+;B[bp]
+;W[dq]
+;B[dp]
+;W[co]
+;B[bq]
+;W[fp]
+;B[eq]
+;W[fq]
+;B[er]
+;W[gn]
+;B[nq]C[Leela likes this sequence.  It gives up a lot of thickness in the center, but white loses the corner and is over concentrated. 
+]
+
+))

@@ -1,0 +1,944 @@
+\documentclass{article}
+\usepackage{igo}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    columns=flexible,
+    breaklines=true
+}
+\begin{document}
+\begin{titlepage}
+    \null
+    \vfill
+    \begin{center}
+        \textbf{Lio (5k) vs wren42 (6k)}\\
+        \textbf{Board size: 19}\\
+        \textbf{Server: OGS: http://online-go.com/game/review/251239}\\
+        \textbf{Ruleset: japanese}\\
+        \textbf{Main time: }\\
+        \textbf{Overtime: }\\
+        \textbf{Komi: 6.5}\\
+        \textbf{Result: B+R}\\
+        \textbf{Date: 2017-02-14}
+    \end{center}
+    \vfill
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\begin{section}{Game: Move 10}
+\begin{center}
+\cleargoban
+\black{c16,j17,q16}
+\white{c4,q4}
+\black[1]{q16,q4,c16,c4,j17}
+\showfullgoban
+\\\begin{lstlisting}
+Chinese opening
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,e4,j17,o17,q16}
+\white{c4,q4,q11,r14}
+\black[1]{q16,q4,c16,c4,j17,r14,o17,q11,e4}
+\showfullgoban
+\\\begin{lstlisting}
+I opt for high approach to help counter whites 4th line framework.  Leela agrees, with 75%+ effort going onto e4. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,e4,j17,o17,q16}
+\white{c4,h4,q4,q11,r14}
+\black[1]{q16,q4,c16,c4,j17,r14,o17,q11,e4,h4}
+\showfullgoban
+\\\begin{lstlisting}
+wide pincer from white aims to continue building a high, influence based moyo. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 27}
+\begin{center}
+\cleargoban
+\black{c16,d7,e4,j17,o17,q16}
+\white{c4,h4,q4,q11,r14}
+\black[11]{d7}
+\showfullgoban
+\\\begin{lstlisting}
+Leela likes this move, leaning more on the white corner and inviting a cut. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b3,b4,c3,c16,d4,d7,e2,e3,e4,f5,j17,o3,o17,q16}
+\white{c4,c5,c6,d3,e5,e6,f3,f4,g6,h4,q4,q11,r14}
+\black[11]{d7,e5,f5,e6,c3,c6,b4,d3,d4,c5,b3,f4,e3,f3,e2,g6,o3}
+\showfullgoban
+\\\begin{lstlisting}
+Leela likes this sequence.  It gives up a lot of thickness in the center, but white loses the corner and is over concentrated. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 12}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,j17,o17,q16}
+\white{c4,h4,q4,q11,r14}
+\black[11]{e6}
+\showfullgoban
+\\\begin{lstlisting}
+1 point jump is never wrong, or so they say...
+
+d7 might have been preferable, however. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,j17,o17,q16}
+\white{c4,c7,h4,q4,q11,r14}
+\black[11]{e6,c7}
+\showfullgoban
+\\\begin{lstlisting}
+2 point jump on 3rd line is usually ok, but this feels a bit slack to me for some reason.
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 19}
+\begin{center}
+\cleargoban
+\black{c16,d8,d9,d10,e4,e6,j17,l4,o17,q16}
+\white{c4,c7,c8,c9,c11,h4,q4,q11,r14}
+\black[13]{d8,c8,d9,c9,d10,c11,l4}
+\showfullgoban
+\\\begin{lstlisting}
+This is a similar principle to what I ended up playing, but gives more immediate thickness. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 15}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j17,o17,q16}
+\white{c4,c7,h4,q4,q11,r14}
+\black[13]{e8}
+\showfullgoban
+\\\begin{lstlisting}
+Using miai to pressure. I get to threaten to block white in at c9 or counter attack h4.  
+
+Leela again prefers leaning harder on the left side with d8. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j17,o17,q16}
+\white{c4,c7,c9,h4,q4,q11,r14}
+\black[13]{e8,c9}
+\showfullgoban
+\\\begin{lstlisting}
+white prefers not to be blocked in, so I get to turn my attention to h4. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j17,l4,o17,q16}
+\white{c4,c7,c9,h4,q4,q11,r14}
+\black[13]{e8,c9,l4}
+\showfullgoban
+\\\begin{lstlisting}
+I chose a wide counter pincer.  I'm aiming to either approach the corner o3 or attack h4 further.  
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 16}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 16}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j17,l4,o17,q16}
+\white{c4,c7,c9,h4,n4,q4,q11,r14}
+\white[16]{n4}
+\showfullgoban
+\\\begin{lstlisting}
+white blocks from the right, again very high.  I think this would be better on the 3rd line.  Leela agrees, suggesting n3.  
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 21}
+\end{subsection}
+\begin{subsection}{Fork: Move 27}
+\begin{center}
+\cleargoban
+\black{c3,c16,d3,e4,e5,e6,e8,j17,l4,l6,n6,n8,o17,q16}
+\white{b3,c4,c7,c9,f5,h4,h7,l8,n4,q4,q6,q11,r14}
+\white[22]{f5,e5,l8,n6,q6,n8}
+\showfullgoban
+\\\begin{lstlisting}
+Another possible variation
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 27}
+\begin{center}
+\cleargoban
+\black{c3,c16,d3,e4,e5,e6,e8,j17,l4,l5,l6,m8,o17,q16}
+\white{b3,c4,c7,c9,d5,h4,h7,k5,k7,n4,q4,q11,r14}
+\white[22]{d5,e5,k5,l5,k7,m8}
+\showfullgoban
+\\\begin{lstlisting}
+white makes shape and the fight roams into the center. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 17}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j17,l4,m5,o17,q16}
+\white{c4,c7,c9,h4,n4,q4,q11,r14}
+\black[17]{m5}
+\showfullgoban
+\\\begin{lstlisting}
+I was hoping to pressure the right and keep sente to attack h4, but this was misguided.  
+
+Leela does not even consider this move, opting for the simple 1 point jump.  White 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 23}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 18}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j17,l4,m5,o17,q16}
+\white{c4,c7,c9,h4,k5,n4,q4,q11,r14}
+\white[18]{k5}
+\showfullgoban
+\\\begin{lstlisting}
+leela prefers h7.  this move doesn't accomplish much for white.
+
+
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 24}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 19}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,j3,j17,l4,m5,o17,q16}
+\white{c4,c7,c9,h4,k5,n4,q4,q11,r14}
+\black[19]{j3}
+\showfullgoban
+\\\begin{lstlisting}
+leela believes this idea was correct (cut under) but that the direct attachment at k4 would be stronger. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 31}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 30}
+\begin{center}
+\cleargoban
+\black{c16,e4,e6,e8,h3,j3,j17,l4,m5,o17,q16}
+\white{c4,c7,c9,h4,h6,k5,n4,q4,q11,r14}
+\white[20]{h6,h3}
+\showfullgoban
+\\\begin{lstlisting}
+I cut under, making a base and moving towards connecting my groups.  I'm pretty happy with this result. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,d10,e4,e6,e8,h3,j3,j17,l4,m5,o17,q16}
+\white{c4,c7,c9,h4,h6,h8,k5,n4,q4,q11,r14}
+\white[20]{h6,h3,h8,d10}
+\showfullgoban
+\\\begin{lstlisting}
+white runs, and I apply pressure on the left to continue the attack. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c16,d10,e4,e6,e8,h3,j3,j17,l4,m5,o17,q16}
+\white{c4,c7,c9,e9,h4,h6,h8,k5,n4,q4,q11,r14}
+\white[20]{h6,h3,h8,d10,e9}
+\showfullgoban
+\\\begin{lstlisting}
+This looks like a mistake to me.  Leela suggests push at d9 and cut to avoid the ladder. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 31}
+\begin{center}
+\cleargoban
+\black{c6,c16,d7,d9,d10,e4,e6,e8,f9,h3,j3,j17,l4,m5,o17,q16}
+\white{b6,c4,c7,c8,c9,d8,e9,h4,h6,h8,k5,n4,q4,q11,r14}
+\black[31]{f9}
+\showfullgoban
+\\\begin{lstlisting}
+this allows me to still play c3 in the future, and is less over concentrated. 
+
+leela gives me a 58% win rate in this variation vs the real game.  This is a major swing for something I would not have noticed at all myself. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 33}
+\end{subsection}
+\begin{subsection}{Fork: Move 35}
+\begin{center}
+\cleargoban
+\black{c6,c16,d7,d9,d10,d11,e4,e6,e8,f9,h3,h10,j3,j17,l4,m5,o17,q16}
+\white{b6,c4,c7,c8,c9,c10,c12,d8,e9,h4,h6,h8,k5,n4,q4,q11,r14}
+\white[32]{c10,d11,c12,h10}
+\showfullgoban
+\\\begin{lstlisting}
+black takes a commanding position in the center
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 48}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d7,d9,d10,e4,e6,e8,h3,j3,j17,l4,m5,o17,q16}
+\white{b6,c4,c7,c8,c9,d8,e9,h4,h6,h8,k5,n4,q4,q11,r14}
+\black[31]{c5}
+\showfullgoban
+\\\begin{lstlisting}
+in retrospect, I think this was a mistake. I ended up getting less good shape than I should have given white's blunder. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,h3,j3,j17,l4,m5,o17,q16}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,k5,n4,q4,q11,r14}
+\black[31]{c5,b5,d4,c3,f9}
+\showfullgoban
+\\\begin{lstlisting}
+I end of getting quite a bit of thickness facing white's weak center group.  I felt good about this result at the time, though I still think I could have gotten more from it. 
+
+leela thinks I should have omitted the moves at c5 and d4, which ultimately just gave my opponent better shape in the corner. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j17,l4,m5,o17,q16}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,n4,q4,q11,r14}
+\black[31]{c5,b5,d4,c3,f9,h10,f11,h12,g13}
+\showfullgoban
+\\\begin{lstlisting}
+at this point, c10 has become VERY big.  I was eyeing it in the game but felt I needed to counteract white's growing influence.  However, I think I ultimately waited too long. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j17,l4,m5,o17,q16}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,q4,q11,r14}
+\black[31]{c5,b5,d4,c3,f9,h10,f11,h12,g13,m7}
+\showfullgoban
+\\\begin{lstlisting}
+white decides to cap me and try to build a moyo in the center.  this is likely the wrong direction.  building territory with a framework like this is usually ineffecient.  
+
+However it is a big area he's threatening, so I decide I must invade. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j17,l4,m5,o17,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,q4,q11,r14}
+\black[31]{c5,b5,d4,c3,f9,h10,f11,h12,g13,m7,r6}
+\showfullgoban
+\\\begin{lstlisting}
+maybe a high move would have been better in this case.  
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,q4,q11,r5,r9,r14}
+\black[31]{c5,b5,d4,c3,f9,h10,f11,h12,g13,m7,r6,r5,q6,r9,p5,p4,n5}
+\showfullgoban
+\\\begin{lstlisting}
+I was pretty pleased with this connection sequence.
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[31]{c5,b5,d4,c3,f9,h10,f11,h12,g13,m7,r6,r5,q6,r9,p5,p4,n5,p8}
+\showfullgoban
+\\\begin{lstlisting}
+this move is gote for white, and tries too hard to build territory in the center.  white should have played c10 or j14 for a pure territorial play, or invaded deeper. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 49}
+\begin{center}
+\cleargoban
+\black{c5,c6,c10,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[49]{c10}
+\showfullgoban
+\\\begin{lstlisting}
+black's corner is immense.  white will have to fight hard to make something comparable in the center, or invade. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 50}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[49]{j14}
+\showfullgoban
+\\\begin{lstlisting}
+Leela likes this move, and gives j14 a 56% winrate.
+
+however, c10 also rates very highly, and looking back I still feel this might have been the best timing to take it. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c17,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[49]{j14,c17}
+\showfullgoban
+\\\begin{lstlisting}
+a good probe. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 55}
+\end{subsection}
+\begin{subsection}{Fork: Move 62}
+\begin{center}
+\cleargoban
+\black{b14,b15,b16,c5,c6,c16,d4,d7,d9,d10,d17,e4,e6,e8,e17,f9,f11,f18,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c14,c15,c17,d8,d16,e9,e16,f17,g18,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\white[56]{e16,b15,c14,b14,f17,f18,g18}
+\showfullgoban
+\\\begin{lstlisting}
+this is too complicated to easily read out all variations. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 57}
+\end{subsection}
+\begin{subsection}{Fork: Move 58}
+\end{subsection}
+\begin{subsection}{Fork: Move 58}
+\end{subsection}
+\begin{subsection}{Fork: Move 59}
+\end{subsection}
+\begin{subsection}{Fork: Move 59}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 53}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c17,d8,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[51]{b17}
+\showfullgoban
+\\\begin{lstlisting}
+leela prefers the block on the other side. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[51]{b17,d17,f17}
+\showfullgoban
+\\\begin{lstlisting}
+white tenukis here, but this was maybe premature. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 62}
+\begin{center}
+\cleargoban
+\black{b14,b15,b16,b17,c5,c6,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,g16,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c13,c14,c15,c17,d8,d16,d17,e9,f16,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\white[54]{d16,b16,f16,g16,c15,b15,c14,b14,c13}
+\showfullgoban
+\\\begin{lstlisting}
+this does not look fun for black. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 54}
+\end{section}
+\begin{subsection}{Fork: Move 60}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 55}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[55]{c12}
+\showfullgoban
+\\\begin{lstlisting}
+I was concerned about white connecting out with a sacrifice in the corner, but this move leaves very nasty aji for the future. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 71}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d7,d9,d10,d11,e4,e6,e7,e8,f9,f11,f17,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e10,f8,f10,h4,h6,h8,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\white[56]{e10,d11,f8,e7,f10}
+\showfullgoban
+\\\begin{lstlisting}
+white can break out, cutting black's groups. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d6,d7,d9,d10,d11,e4,e5,e6,e7,e8,f7,f8,f9,f11,f17,g8,g9,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e10,f6,f10,g7,g10,h4,h6,h8,h9,h10,h12,k5,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\white[56]{e10,d11,f8,e7,f10,g9,g10,g8,g7,f7,h9,f8,d5,d6,f6,e5}
+\showfullgoban
+\\\begin{lstlisting}
+black is not happy. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 56}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,k13,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\white[56]{k13}
+\showfullgoban
+\\\begin{lstlisting}
+white decides to leave the corner aji and move to the center again.
+
+this move is slow, however, and gives black sente to fix his shape. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 59}
+\begin{center}
+\cleargoban
+\black{b15,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,k14,l4,m5,n5,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,k13,l13,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[57]{k14,l13,b15}
+\showfullgoban
+\\\begin{lstlisting}
+Leela prefers a simple push and then returning to defend the corner, guaranteeing massive profit in the upper left.  White has little chance of coming back at this point.  
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 65}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,l4,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,k13,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[57]{n14}
+\showfullgoban
+\\\begin{lstlisting}
+unfortunately, I got greedy, and played a very slack move.  while this threatens white's center, it is far too much for BLack to hope for white to play defensively with something like n12.  I had wanted to make white defend, then push at k14, sealing off a huge side, but this was far too ambitious. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,l4,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,k13,k17,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[57]{n14,k17}
+\showfullgoban
+\\\begin{lstlisting}
+white's response is very clever, aiming to attach and sacrifice some stones to get a living invasion, or connect out. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[57]{n14,k17,k16,l16,l17,k18,l18,b18}
+\showfullgoban
+\\\begin{lstlisting}
+I fell into white's trap.  I now cannot both kill the corner and his invasion. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 68}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,g18,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,f18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\white[66]{f18,g18,e18}
+\showfullgoban
+\\\begin{lstlisting}
+this is probably a little better. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 66}
+\end{section}
+\begin{subsection}{Fork: Move 67}
+\begin{center}
+\cleargoban
+\black{a18,b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[67]{a18}
+\showfullgoban
+\\\begin{lstlisting}
+if I block to this side, white can connect out. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 76}
+\end{subsection}
+\begin{subsection}{Fork: Move 85}
+\begin{center}
+\cleargoban
+\black{a18,b16,b17,b19,c5,c6,c12,c16,c18,d4,d7,d9,d10,d19,e4,e6,e8,f9,f11,f16,f17,g13,h3,h19,j3,j14,j17,j18,k15,k16,k19,l4,l17,l18,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{b5,b6,c3,c4,c7,c8,c9,c10,c17,d8,d17,d18,e9,e18,e19,f18,g17,g19,h4,h6,h8,h10,h12,h17,h18,j16,k5,k13,l16,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[77]{b19,g17,f16,g19,h19,j19,d19,e19,h19}
+\showfullgoban
+\\\begin{lstlisting}
+white has way too many ko threats for me to kill this, and it probably isn't even his best line of play. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 86}
+\end{subsection}
+\begin{subsection}{Fork: Move 86}
+\end{subsection}
+\begin{subsection}{Fork: Move 86}
+\end{subsection}
+\begin{subsection}{Fork: Move 77}
+\end{subsection}
+\begin{subsection}{Fork: Move 69}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 102}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n14,o17,p5,q6,q16,r6}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[67]{f18,a18}
+\showfullgoban
+\\\begin{lstlisting}
+white is alive, and I'm in deep trouble.  White now has several ways to destroy my center territory, and I still have lots of Aji on my bottom groups.  There is way too much to do, and too little time. 
+
+My winrate according to leela has dropped rom almost 60% when I played j14 to under 50%.  I'm behind. 
+
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o17,p5,q6,q16,r6}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,p4,p8,q4,q11,r5,r9,r14}
+\black[67]{f18,a18,n7}
+\showfullgoban
+\\\begin{lstlisting}
+So, I embark on a bold plan. I need to make several things happen in sente in order to have a chance.  This probe starts the gambit, and allows me to threaten the corner without worrying about getting cut at o5.
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o17,p5,q6,q16,r3,r6}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,p4,p8,q4,q11,r5,r9,r14}
+\black[67]{f18,a18,n7,n8,r3}
+\showfullgoban
+\\\begin{lstlisting}
+with this invasion, I am threatening to either come under with s5, or peep at o3. white is in a tricky position, as his stones may not survive if he loses his base. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,o4,p2,p4,p8,q4,q11,r4,r5,r9,r14}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2}
+\showfullgoban
+\\\begin{lstlisting}
+This exchange was extremely tense, as I wasn't certain I would build life.
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7}
+\showfullgoban
+\\\begin{lstlisting}
+here, white bungles badly, as I had hoped.  THe threat of cutting off his white stones had him running scared, and he escapes, but gives up sente. 
+
+Now I've destroyed his corner and am free to continue the attack!
+
+note that leela still gives me only a 40% winrate.  I'm still deep in the woods. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,e17,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7,e17}
+\showfullgoban
+\\\begin{lstlisting}
+Another gambit.  I am hoping against hope that white makes a mistake here, and gives up sente again.  THere are several ways he can make life, but only a few end with him being contained, and my retaining sente. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,e4,e6,e8,e17,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c19,d8,d17,e9,e18,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7,e17,c19}
+\showfullgoban
+\\\begin{lstlisting}
+lucky! white chooses a shape that looks good, but has major flaws. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,d18,e4,e6,e8,e17,f9,f11,f17,f18,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,n5,n7,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,e9,e18,e19,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7,e17,c19,d18,e19,d16,c18}
+\showfullgoban
+\\\begin{lstlisting}
+This way, I get to seal him in with sente, and can press the attack!
+
+The win % swung from 40% to 53% on this exchange.  It is such a small thing, but sente is so, so important.  these are the moves that are easy to miss, but can determine the outcome of a game. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g13,h3,j3,j14,j17,k16,l4,l17,l18,m5,m12,n5,n7,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,n4,n8,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7,e17,c19,d18,e19,d16,c18,f19,d19,m12}
+\showfullgoban
+\\\begin{lstlisting}
+my rear secured, it is time to fight!  it's a close game, and will hinge on the next exchanges. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g13,h3,j3,j14,j17,k16,l4,l13,l17,l18,m5,m12,n5,n7,n13,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,k5,k13,k17,k18,l16,m7,m13,n4,n8,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7,e17,c19,d18,e19,d16,c18,f19,d19,m12,m13,n13,n12,l13}
+\showfullgoban
+\\\begin{lstlisting}
+I don't think white expected this when he played m13, but I had read it out.  Leela gives this move 58%. I'm back in the game!
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g13,h3,j3,j12,j14,j17,k12,k16,l4,l12,l13,l17,l18,m5,m12,n5,n7,n13,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,j11,k5,k11,k13,k17,k18,l11,l16,m7,m11,m13,n4,n8,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[67]{f18,a18,n7,n8,r3,r4,o3,o4,q2,p2,s2,q3,s4,s5,t3,s7,e17,c19,d18,e19,d16,c18,f19,d19,m12,m13,n13,n12,l13,m11,l12,l11,k12,k11,j12,j11}
+\showfullgoban
+\\\begin{lstlisting}
+white ends up playing for the center with a nice wrap.  I could have secured my side here, but I was still very worried about the aji at the d10 stones.  
+
+I felt like with the size of white's center, I needed to get d2, d11, and s16 to stay ahead.  
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 103}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g13,h3,h13,j3,j12,j14,j17,k12,k16,l4,l12,l13,l17,l18,m5,m12,n5,n7,n13,n14,o3,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,j11,k5,k11,k13,k17,k18,l11,l16,m7,m11,m13,n4,n8,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[103]{h13}
+\showfullgoban
+\\\begin{lstlisting}
+Leela thinks I should stop trying to be fancy and just take my huge side.  This is a TON of points, and in retrospect I should have just fixed my shape sooner. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 111}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g4,g13,h3,j3,j12,j14,j17,k12,k16,l4,l5,l12,l13,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,j11,k5,k11,k13,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[103]{o12,n11,l5,l6,g4}
+\showfullgoban
+\\\begin{lstlisting}
+I tried a few probing moves to retain sente, but overplayed my hand.  White isn't going to respond to save h4, even though I could kill it.  This was a blunder. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g4,g13,h3,j3,j12,j14,j17,k12,k16,l4,l5,l12,l13,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,j11,j13,k5,k11,k13,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[103]{o12,n11,l5,l6,g4,j13}
+\showfullgoban
+\\\begin{lstlisting}
+white takes advantage of my aji
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 112}
+\end{subsection}
+\begin{subsection}{Fork: Move 117}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k14,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,h13,j11,j13,j16,k5,k11,k13,k15,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[113]{k14,j16}
+\showfullgoban
+\\\begin{lstlisting}
+maybe I can just kill, though. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 117}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j16,j17,k12,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k15,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\black[113]{j16,k14}
+\showfullgoban
+\\\begin{lstlisting}
+this sucks for me. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 117}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7}
+\white[112]{k14}
+\showfullgoban
+\\\begin{lstlisting}
+this was silly.  why not atari first?
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7,s16}
+\white[112]{k14,k15,g12,f13,s16}
+\showfullgoban
+\\\begin{lstlisting}
+good sente move.  white should now turn back to d11. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 119}
+\end{subsection}
+\begin{subsection}{Fork: Move 134}
+\begin{center}
+\cleargoban
+\black{b12,b16,b17,c5,c6,c12,c14,c16,d4,d7,d9,d10,d13,d14,d16,e4,e6,e8,e10,e12,e14,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,h15,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,r17,s2,s4,t3}
+\white{a18,b5,b6,b13,b18,c3,c4,c7,c8,c9,c10,c13,c17,c18,c19,d8,d11,d12,d17,d19,e18,e19,f12,g12,g14,h4,h6,h8,h10,h12,h13,j11,j13,j15,k5,k11,k13,k14,k17,k18,l6,l11,l15,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,q3,q4,q11,r4,r5,r9,r14,s5,s7,s16}
+\white[120]{d12,d13,c13,c14,b13,b12,e13,d14,f12,e14,g14,e12,j15,h15,l15}
+\showfullgoban
+\\\begin{lstlisting}
+whoops!
+
+danger lies this way. 
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 124}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 123}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o17,p5,q2,q6,q16,r3,r6,r17,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,p15,q3,q4,q11,r4,r5,r9,r14,s5,s7,s16}
+\white[118]{p15}
+\showfullgoban
+\\\begin{lstlisting}
+this shape is weird, and a little overextended. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o14,o17,p5,p14,q2,q6,q15,q16,r3,r6,r17,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,p13,p15,q3,q4,q11,q14,r4,r5,r9,r14,s5,s7,s16}
+\white[118]{p15,q15,q14,p14,p13,o14}
+\showfullgoban
+\\\begin{lstlisting}
+here I was hoping to trap white if he got greedy. 
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 124}
+\end{subsection}
+\begin{subsection}{Fork: Move 129}
+\end{subsection}
+\begin{subsection}{Fork: Move 133}
+\end{subsection}
+\begin{subsection}{Fork: Move 133}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o14,o17,p5,p14,q2,q6,q13,q15,q16,r3,r6,r13,r17,s2,s4,s14,s15,s17,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,o13,p2,p4,p8,p12,p13,p15,q3,q4,q11,q14,r4,r5,r9,r14,r15,r16,s5,s7,s13,s16}
+\white[130]{s13,r13,r16,s17}
+\showfullgoban
+\\\begin{lstlisting}
+nice
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 127}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m5,m12,n5,n7,n13,n14,o3,o12,o14,o17,p5,p14,q2,q6,q15,q16,r3,r6,r17,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,p12,p13,p15,q3,q4,q11,q14,r4,r5,r9,r14,s5,s7,s16}
+\white[124]{p12}
+\showfullgoban
+\\\begin{lstlisting}
+alas white, saw through it. 
+
+leela has a better solution, though: s17
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m3,m5,m12,n5,n7,n13,n14,o3,o12,o14,o17,p5,p14,q2,q6,q15,q16,r3,r6,r17,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n4,n8,n11,n12,o4,p2,p4,p8,p12,p13,p15,q3,q4,q11,q14,r4,r5,r9,r14,s5,s7,s16}
+\white[124]{p12,m3}
+\showfullgoban
+\\\begin{lstlisting}
+sente. if I connect n4 I can also threaten to cut p3.  maybe white can ignore though if he plays something like d11. 
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{b16,b17,c5,c6,c12,c16,d4,d7,d9,d10,d11,d16,e4,e6,e8,e17,f9,f11,f13,f17,f18,f19,g4,g13,h3,h14,j3,j12,j14,j17,k12,k15,k16,l4,l5,l12,l13,l14,l17,l18,m3,m5,m12,n5,n7,n13,n14,o3,o12,o14,o17,p5,p14,q2,q6,q15,q16,r3,r6,r17,s2,s4,t3}
+\white{a18,b5,b6,b18,c3,c4,c7,c8,c9,c10,c17,c18,c19,d8,d17,d19,e9,e18,e19,g12,h4,h6,h8,h10,h12,h13,j11,j13,k5,k11,k13,k14,k17,k18,l6,l11,l16,m7,m11,m13,n3,n4,n8,n11,n12,o4,p2,p4,p8,p12,p13,p15,q3,q4,q11,q14,r4,r5,r9,r14,s5,s7,s16}
+\white[124]{p12,m3,n3,d11}
+\showfullgoban
+\\\begin{lstlisting}
+looking at the endgame, I think I'm ahead by a handful of points, so I decide to connect. 
+
+Much to my surprise, white resigns!
+
+The final score is within 2-3 points, I think, with a good endgame, but perhaps my opponent didn't see a way through. 
+
+leela gives black at 75% winrate in this position, so perhaps the resignation is reasonable, though still early from a human Kyu perspective. 
+
+Overall, a well fought game with many subtle turning points!  
+
+I continue to struggle with leaving too much aji and being greedy for points when I don't need to be.  I need to learn to play more solidly and that defense is a good offense. 
+
+gg!
+\end{lstlisting}
+\end{center}
+\end{section}
+\end{document}

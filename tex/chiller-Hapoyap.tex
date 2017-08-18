@@ -1,0 +1,949 @@
+\documentclass{article}
+\usepackage{igo}
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    columns=flexible,
+    breaklines=true
+}
+\begin{document}
+\begin{titlepage}
+    \null
+    \vfill
+    \begin{center}
+        \textbf{chiller (2d) vs Hapoyap (1k)}\\
+        \textbf{Board size: 19}\\
+        \textbf{Server: The KGS Go Server at http://www.gokgs.com/}\\
+        \textbf{Ruleset: Japanese}\\
+        \textbf{Main time: 300}\\
+        \textbf{Overtime: 3x30 byo-yomi}\\
+        \textbf{Komi: 0.50}\\
+        \textbf{Result: B+Forfeit}\\
+        \textbf{Date: 2016-11-01}
+    \end{center}
+    \vfill
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\begin{section}{Game: Move 11}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{d4,q16}
+\white{r4}
+\white[1]{r4}
+\gobansymbol{c16}{A}
+\gobansymbol{d16}{B}
+\showfullgoban
+\\\begin{lstlisting}
+Thoughts.
+
+If I play A, I break up the symmetry of the board a little bit, and makes it more interesting (and potentially confusing), which is often desirable in close games.
+
+However, B lets me try to overwhelm white with my influence game.  I was thinking that if I play B, I have to commit to an aggressive attack strategy if I needed to.
+
+I was thinking that I was OK with that.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{d4,d16,q16}
+\white{r4}
+\white[1]{r4,d16}
+\showfullgoban
+\\\begin{lstlisting}
+So here I go
+\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{d4,d16,q16}
+\white{f3,r4}
+\white[1]{r4,d16,f3}
+\gobansymbol{j4}{A}
+\gobansymbol{h3}{B}
+\showfullgoban
+\\\begin{lstlisting}
+Correct place for white to start, I think.
+
+I thought for a minute about playing a pincer (A or B), but decided that white would nimbly get away (A) or find an easy way of blunting my influence if I played B.  I'm starting to see why the knight move response is so popular.  It's stable, strong, and flexible (meaning it keeps your options open even after it's played)
+
+Appreciating the value of this move is a learning tool\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,q16}
+\white{f3,l3,r4}
+\white[1]{r4,d16,f3,c6,l3}
+\gobansymbol{k4}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I've wondered if this is a bit low, but I guess it works ok with his stone in the lower right.
+
+I wonder if I would have played A?  Still, it's important to make sure you get territory in a handicap game, so I get it.
+
+For the early part of this game, I was trying to put myself in white's shoes:
+"How would I play if I were playing a handicap game against a weaker player?"
+
+Still, since I've been playing so high, as white I would have played A to maintain the balance of influence.  I wouldn't play a shoulder hit like A immediately, but I like having that option open for later.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,q16}
+\white{f3,l3,r4}
+\white[1]{r4,d16,f3,c6,l3,k16}
+\gobansymbol{d10}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I debated between this and A for a while.  I decided that since B was low, I had better prospects at the top.  That was my instinct at the time, but now I see a bit more clearly a better reason: if black 6 is at A, then it looks like it would have been wiser to pincer in response to white triangle.
+
+That is, if I had played A, black 4 would look like a bad move.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,q16}
+\white{f3,l3,r4,r14}
+\white[1]{r4,d16,f3,c6,l3,k16,r14}
+\showfullgoban
+\\\begin{lstlisting}
+Pincering feels much more natural here\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,q11,q16}
+\white{f3,l3,r4,r14}
+\white[1]{r4,d16,f3,c6,l3,k16,r14,q11}
+\gobansymbol{r12}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I had thought about pincering at A, but since white's triangle stone is low, there seemed to be little opportunity* for territory on the right.
+
+To put this into words, a good "opportunity" in my mind is a move that evokes some sort of response from white while making territory at the same time.  How threatening it is to white changes the value of the move, certainly.
+
+Anyway, played high\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,q11,q16}
+\white{f3,l3,p14,r4,r14}
+\white[1]{r4,d16,f3,c6,l3,k16,r14,q11,p14}
+\gobansymbol{o16}{A}
+\showfullgoban
+\\\begin{lstlisting}
+A is natural.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,o16,q11,q16}
+\white{f3,l3,o11,p14,r4,r14}
+\white[1]{r4,d16,f3,c6,l3,k16,r14,q11,p14,o16,o11}
+\gobansymbol{n14}{J}
+\gobansymbol{q13}{B}
+\gobansymbol{o12}{A}
+\gobansymbol{p12}{G}
+\gobansymbol{o10}{H}
+\gobansymbol{o9}{F}
+\gobansymbol{p9}{I}
+\gobansymbol{q9}{C}
+\gobansymbol{q8}{D}
+\gobansymbol{r8}{E}
+\showfullgoban
+\\\begin{lstlisting}
+This took me very much by surprise.  I spent a good two minutes on my response because I really didn't want to start this game off with a pointless loss
+
+I really wanted to play A, but it seemed like it didn't work.  Then I thought about playing B first, but it still didn't seem very good for me.
+
+I thought about C, D, and E, but it all seemed very passive to me.  For example, if I play C, then white plays F, and I've just let white jump around and get a lot of useful stones out there.  (Which apparently, I don't want)
+
+I thought about playing F myself.
+Clearly G is out.
+I thought H, but it seemed too dangerous if white cuts.
+Also I seemed thin.  The main problem was this: I wanted some way to make Q11 stronger so I could leave myself open the option of cutting with B and A later.  But I wanted to be active about it.
+
+So I think that's right when I saw J.  I only looked at it for a few seconds and I realized it was the only move that made sense to me.\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 27}
+\end{subsection}
+\begin{subsection}{Fork: Move 17}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 15}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n14,o16,q11,q16}
+\white{f3,l3,o11,p14,r4,r14}
+\black[12]{n14}
+\gobansymbol{o13}{A}
+\gobansymbol{p12}{B}
+\gobansymbol{q9}{C}
+\gobansymbol{q8}{D}
+\showfullgoban
+\\\begin{lstlisting}
+I think it might only have been AFTER I played it that I thought about this added benefit:
+	If white plays around A or B to block me in, THEN I'll play C or D
+	If white plays around C or D, I'll do the peep-and-cut that I was thinking about earlier\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n14,o16,q11,q16}
+\white{f3,l3,o11,p14,r4,r14,r17}
+\black[12]{n14,r17}
+\showfullgoban
+\\\begin{lstlisting}
+So that's why this move surprised me.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n14,o16,q11,q16,r16}
+\white{f3,l3,o11,p14,r4,r14,r17}
+\black[12]{n14,r17,r16}
+\showfullgoban
+\\\begin{lstlisting}
+The only move.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n14,o16,q11,q16,r16}
+\white{f3,l3,o11,p14,r4,r14,r17,s16}
+\black[12]{n14,r17,r16,s16}
+\gobansymbol{q17}{B}
+\gobansymbol{s15}{A}
+\showfullgoban
+\\\begin{lstlisting}
+Now here I get to pause again.
+
+If I play A, I should make sure I have an attack on the white stones after I get my wall.  The problem is that my one black triangle stone is outnumbered by the white triangle stones.  I won't have much of an attack.\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 30}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 26}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n14,o16,q11,q16,q17,r16,r18}
+\white{f3,l3,o11,p14,r4,r14,r17,s16,s17,s18}
+\black[16]{q17,s18,r18,s17}
+\showfullgoban
+\\\begin{lstlisting}
+And now it seems like I have sente, and I get to cut right through white's stones!\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n12,n14,o12,o16,p13,q11,q13,q16,q17,r16,r18}
+\white{f3,l3,o11,o13,p12,p14,q14,r4,r14,r17,s16,s17,s18}
+\black[16]{q17,s18,r18,s17,q13,q14,o12,p12,p13,o13,n12}
+\gobansymbol{q12}{A}
+\showfullgoban
+\\\begin{lstlisting}
+This doesn't turn out so great for white, I think\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 31}
+\end{subsection}
+\begin{subsection}{Fork: Move 37}
+\end{subsection}
+\begin{subsection}{Fork: Move 32}
+\end{subsection}
+\begin{subsection}{Fork: Move 33}
+\end{subsection}
+\begin{subsection}{Fork: Move 35}
+\end{subsection}
+\begin{subsection}{Fork: Move 34}
+\end{subsection}
+\begin{subsection}{Fork: Move 39}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 27}
+\end{section}
+\begin{subsection}{Fork: Move 33}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 56}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,n12,n14,o12,o16,p11,p13,q11,q13,q16,q17,r16,r18}
+\white{f3,l3,o11,o13,o14,p12,p14,q14,r4,r14,r17,s16,s17,s18}
+\black[28]{p11}
+\showfullgoban
+\\\begin{lstlisting}
+Of course, black triangle means nothing to me now.  I could probably even ignore white's push\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,l13,m13,n12,n14,o12,o16,p11,p13,q11,q13,q16,q17,r16,r18}
+\white{f3,l3,m14,n11,n13,o11,o13,o14,p12,p14,q14,r4,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11}
+\showfullgoban
+\\\begin{lstlisting}
+This was not a very good move I think, personally.  It only serves to connect black and make white heavy.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17}
+\showfullgoban
+\\\begin{lstlisting}
+Is it slow?  I felt like I needed to defend my group in the top right.  This may have been slow, but it was steady, and I felt good playing it.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{d13,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13}
+\gobansymbol{f17}{C}
+\gobansymbol{f16}{B}
+\gobansymbol{c14}{D}
+\gobansymbol{e14}{A}
+\showfullgoban
+\\\begin{lstlisting}
+Another unexpected move.  A bit too far away, maybe?  It will be easy for black to take the whole top, no?
+
+I thought about A, B, C, and D, but settled on B, which seemed calm\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d4,d16,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,d13,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8}
+\gobansymbol{d2}{A}
+\gobansymbol{e2}{B}
+\showfullgoban
+\\\begin{lstlisting}
+A is normal of course, but am I capitulating too much to white's wishes?  I thought about B too, but didn't want to make white stronger.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d2,d4,d16,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,d13,e2,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2}
+\showfullgoban
+\\\begin{lstlisting}
+This also surprised me, but in review, it makes sense.  It's sente and it makes white some points.  Plus, it's easy for black to make a mistake.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,d2,d4,d16,e3,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,d13,e2,f2,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2}
+\gobansymbol{c3}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I see white's plan now.  He's aiming at A.  It's sort of OK, because he has a weak group on the left, so it'll be hard to invade.
+
+Then I thought that if I invade first, it'll give me an out for if/when white invades at A\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,c10,d2,d4,d16,e3,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,d13,e2,f2,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2,c10}
+\gobansymbol{e8}{C}
+\gobansymbol{d7}{B}
+\gobansymbol{c3}{A}
+\showfullgoban
+\\\begin{lstlisting}
+So it seemed like a good time to invade
+
+I expected white to play B or C\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{c6,c10,d2,d4,d16,e3,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c16,d13,e2,f2,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2,c10,c16}
+\showfullgoban
+\\\begin{lstlisting}
+A surprise, but I sense now that white is trying to make things complicated.  I tried to play calmly\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b17,c6,c10,c17,d2,d4,d16,e3,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d13,d15,e2,f2,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2,c10,c16,c17,c15,b17,d15}
+\gobansymbol{d17}{H}
+\gobansymbol{e17}{I}
+\gobansymbol{e16}{A}
+\gobansymbol{h16}{J}
+\gobansymbol{e15}{B}
+\gobansymbol{e14}{C}
+\gobansymbol{f14}{D}
+\gobansymbol{g14}{F}
+\gobansymbol{f13}{E}
+\gobansymbol{d9}{G}
+\showfullgoban
+\\\begin{lstlisting}
+I debated over A and B.  I've only seen A in stronger players' games, and I was trying to come up for a reason to play it.
+
+Here's what I came up with:
+	If I play B-white C-black D-white E-black F, white builds up strength before attacking at G.
+	White also has the option of playing something annoying like H or I, and paired with the weakness at J, B seemed unacceptable\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b17,c6,c10,c17,d2,d4,d16,e3,e16,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d13,d15,e2,f2,f3,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2,c10,c16,c17,c15,b17,d15,e16}
+\showfullgoban
+\\\begin{lstlisting}
+I feel like white has pushed me around a little bit, but I have come out with quite a bit of territory at the top, so I deem it ok.  Plus white's group is not completely safe yet\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b17,c6,c10,c17,d2,d4,d16,e3,e16,f16,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d13,d15,e2,f2,f3,g14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2,c10,c16,c17,c15,b17,d15,e16,g14}
+\gobansymbol{h16}{C}
+\gobansymbol{h15}{B}
+\gobansymbol{e14}{F}
+\gobansymbol{f14}{E}
+\gobansymbol{e10}{D}
+\gobansymbol{d9}{A}
+\showfullgoban
+\\\begin{lstlisting}
+This surprised me a little bit, but it makes sense.  White still needs to build up strength before attacking strongly on the left.  (if he started by playing A, I would push up and slice white's groups in two.
+
+But now the question is: do I need to defend my weakness at the top?  And if so, should I play B or C?
+
+I really wanted to play D, but then I wondered about white playing C
+	I thought: could I then play E and F and then cut?  But I would then be cut into two weak groups, which is not what I'm trying to do right now.  So, B is my choice\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b17,c6,c10,c17,d2,d4,d16,e3,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d13,d15,e2,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[28]{p11,n13,m13,m14,l13,n11,m12,r13,q12,n15,m17,d13,f16,c8,d2,e2,e3,f2,c10,c16,c17,c15,b17,d15,e16,g14,h15,h14}
+\showfullgoban
+\\\begin{lstlisting}
+White may have lost a little ground here.  I think he should have attacked on the left instead of extending.  I think he was expecting (by reflex) that I would respond to this, and he knows he's made a mistake after I play my jump on the left\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 58}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 65}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b17,c6,c10,c17,d2,d4,d16,e3,e10,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d13,d15,e2,e8,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[57]{e8}
+\gobansymbol{h17}{B}
+\gobansymbol{h16}{A}
+\gobansymbol{g10}{D}
+\gobansymbol{d9}{E}
+\gobansymbol{b8}{C}
+\showfullgoban
+\\\begin{lstlisting}
+He only looked at this for a second before playing the one space jump.  I think he was thrown off balance a little bit by losing the initiative.
+
+Here was my thought: if white plays A, then I play B and I should have no problem connecting.  Anything else seems similarly simple to answer.
+
+I currently have the option of C or D.  If I play C, white will almost certainly play E to cut me.  But really, that's ok, and I'd rather be able to connect while it's still a guarantee\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c10,c17,d2,d4,d16,e3,e10,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d13,d15,e2,e8,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[57]{e8,b8,d9}
+\showfullgoban
+\\\begin{lstlisting}
+Of course\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c17,d2,d4,d11,d16,e3,e10,e12,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d13,d15,e2,e8,e11,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[57]{e8,b8,d9,c9,d10,d11,e11,e12}
+\gobansymbol{c11}{A}
+\gobansymbol{f11}{B}
+\gobansymbol{b10}{D}
+\gobansymbol{b9}{C}
+\gobansymbol{b7}{E}
+\showfullgoban
+\\\begin{lstlisting}
+The white A, black B, white C, black D, white E combo made me nervous, but I guess I was taking a risk here.  I figured I would find a way to attack SOMEthing.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c17,d2,d4,d11,d16,e3,e10,e12,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[57]{e8,b8,d9,c9,d10,d11,e11,e12,d12}
+\gobansymbol{f11}{A}
+\showfullgoban
+\\\begin{lstlisting}
+This surprised me though.
+
+I could have played A, but I didn't like the idea of getting cut through on the side.\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 68}
+\end{subsection}
+\begin{subsection}{Fork: Move 72}
+\end{subsection}
+\begin{subsection}{Fork: Move 72}
+\end{subsection}
+\begin{subsection}{Fork: Move 74}
+\end{subsection}
+\begin{subsection}{Fork: Move 75}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{a9,b8,b10,b17,c6,c9,c10,c12,c17,d2,d4,d11,d16,e3,e10,e11,e12,e16,f11,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{b7,c3,c7,c8,c11,c15,c16,d9,d10,d12,d13,d15,e2,e8,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[73]{c7,c12,c3}
+\showfullgoban
+\\\begin{lstlisting}
+I would make gains on the left, but the corner would become a huge problem for me.
+
+Looking back, I just didn't want to get cut through the side.\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 67}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[66]{c11}
+\showfullgoban
+\\\begin{lstlisting}
+This seemed simple to me.  White is not out of the clear yet.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[66]{c11,f11}
+\gobansymbol{f14}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I wanted to play A, but it doesn't work yet.  No point in wasting the aji of the triangle stone though, so I decided to save the lower (square) stone instead.\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 79}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b13,b14,b17,c6,c9,c10,c11,c13,c17,d2,d4,d11,d14,d16,e3,e10,e12,e14,e16,f14,f16,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{b12,b15,c8,c12,c14,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,e13,f2,f3,f11,f13,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[68]{f14,f13,e14,e13,d14,c14,c13,c12,b13,b12,b14,b15}
+\showfullgoban
+\\\begin{lstlisting}
+Doesn't work yet
+\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 71}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f16,g10,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,g8,g11,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[68]{f10,g11,g10,g8}
+\gobansymbol{f13}{B}
+\gobansymbol{h11}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I thought about playing A directly, but then white gets the good move of B to counter.  Then I thought about playing at B directly to keep white from getting it himself.  But THEN I saw that playing at B also helped to put pressure on the group on the left.  Since it served a double purpose, I went with it.\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 81}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 72}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f13,f16,g10,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,g8,g11,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[72]{f13}
+\showfullgoban
+\\\begin{lstlisting}
+I'm offering a trade here.  If white blocks at H10, he can take the center and part of the top.  But I'll get a HUGE left side, no weak groups, and probably sente too\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 77}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 75}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f13,f16,g10,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,f14,g8,g11,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[73]{f14}
+\showfullgoban
+\\\begin{lstlisting}
+White rejects the compromise\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f13,f16,g10,h11,h15,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,f14,g8,g11,g12,g14,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[73]{f14,h11,g12}
+\gobansymbol{g13}{A}
+\gobansymbol{h12}{B}
+\gobansymbol{j11}{E}
+\gobansymbol{j10}{D}
+\gobansymbol{h9}{C}
+\gobansymbol{j9}{F}
+\showfullgoban
+\\\begin{lstlisting}
+If I play B I get one more forcing move
+If I play C, D, or E, I can leave myself the option of playing A later, which would be very pleasant.
+
+It's already great that I got to play this hane and force white into bad shape.  I think playing F is a good choice because it leaves my options open and puts pressure on white's group\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 79}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f13,f16,g10,h11,h12,h15,j9,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,f14,g8,g11,g12,g13,g14,h7,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{h12,g13,j9,h7}
+\showfullgoban
+\\\begin{lstlisting}
+White would respond now\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 94}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f13,f16,g10,h11,h15,j9,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f11,f14,g8,g11,g12,g14,h12,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{j9,h12}
+\showfullgoban
+\\\begin{lstlisting}
+Perhaps a mistake by white... he played as though he was punishing me for a mistake (for not playing H12 myself?), but it's not sente for him (as it would be for me).  This leaves me the chance to attack his left group strongly.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e10,e12,e16,f10,f13,f16,g10,h7,h11,h15,j9,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f6,f11,f14,g8,g11,g12,g14,h12,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{j9,h12,h7,f6}
+\showfullgoban
+\\\begin{lstlisting}
+A good option for running\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h7,h11,h15,j9,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h12,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{j9,h12,h7,f6,f4,g4,g5,f5,e4}
+\showfullgoban
+\\\begin{lstlisting}
+I thought: if white plays an atari to escape, I will counter atari and capture three white stones at the bottom.  Plus, it would be nice to remove the possibility of white taking anything in the corner.  But white wants to keep everything...\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h7,h11,h15,j9,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h12,h14,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{j9,h12,h7,f6,f4,g4,g5,f5,e4,h4}
+\gobansymbol{g7}{D}
+\gobansymbol{g6}{B}
+\gobansymbol{h6}{C}
+\gobansymbol{h5}{A}
+\showfullgoban
+\\\begin{lstlisting}
+Golden opportunity to attack.  I thought about A, B, C, and D.  D seemed like too much of a compromise.  I wanted my attack to be sharp.  A seemed to invite a squeeze or cut... some kind of counter attack seemed likely.  B seemed too close.  White might be able to make shape with forcing moves.
+
+So, C it is.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h6,h7,h11,h15,j8,j9,k16,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h12,h14,j7,l3,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{j9,h12,h7,f6,f4,g4,g5,f5,e4,h4,h6,h8,j8,j7}
+\showfullgoban
+\\\begin{lstlisting}
+Yea, definitely the cut is dangerous, but I'm pretty sure white isn't reading right now, and is desparate.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h6,h7,h11,h15,j6,j8,j9,k6,k16,l6,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h12,h14,j7,k7,l3,l7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[76]{j9,h12,h7,f6,f4,g4,g5,f5,e4,h4,h6,h8,j8,j7,j6,k7,k6,l7,l6}
+\showfullgoban
+\\\begin{lstlisting}
+My plan is just to keep pushing.\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 103}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h6,h7,h11,h15,j6,j8,j9,k6,k16,l6,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h9,h12,h14,j7,k7,l3,l7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[95]{h9}
+\showfullgoban
+\\\begin{lstlisting}
+If white wants to cut, I think push and cut is the better option here\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h6,h7,h10,h11,h15,j6,j8,j9,j12,k6,k10,k12,k16,l6,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h9,h12,h14,j7,j10,j11,k7,k11,l3,l7,l11,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[95]{h9,h10,j10,k10,j11,j12,k11,k12,l11}
+\gobansymbol{k9}{A}
+\showfullgoban
+\\\begin{lstlisting}
+I have a problem at A\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 100}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g10,h6,h7,h11,h15,j6,j8,j9,k6,k16,l6,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h12,h14,j7,j10,k7,l3,l7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[95]{j10}
+\gobansymbol{h9}{A}
+\showfullgoban
+\\\begin{lstlisting}
+This allows me the option of A\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 108}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k8,k10,k16,l6,l8,l13,m8,m9,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,k9,l3,l7,l9,l10,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[101]{k9,k8,l9,l8,m7,m9,l10,m8}
+\showfullgoban
+\\\begin{lstlisting}
+Difficult for white\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 103}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[101]{m7}
+\showfullgoban
+\\\begin{lstlisting}
+So white makes the cut more threatening.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[101]{m7,l9}
+\showfullgoban
+\\\begin{lstlisting}
+Now my two groups are almost 100% connected.\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m6,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[101]{m7,l9,m6}
+\showfullgoban
+\\\begin{lstlisting}
+White tries to atttack the other group, but his surrounded stones don't have a lot of lberties
+\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 107}
+\end{subsection}
+\begin{subsection}{Fork: Move 119}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f7,f8,f10,f13,f16,g5,g9,g10,h5,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g6,g7,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m6,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[108]{h5}
+\showfullgoban
+\\\begin{lstlisting}
+Bad for black.\end{lstlisting}
+\end{center}
+\end{subsection}
+\begin{subsection}{Fork: Move 111}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 108}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e8,e11,f2,f3,f5,f6,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m6,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[104]{g7}
+\showfullgoban
+\\\begin{lstlisting}
+Seemed like a sound choice.  I read it out\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m6,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[104]{g7,f8,f7,e7}
+\showfullgoban
+\\\begin{lstlisting}
+White didn't seem to believe me\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,m6,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[104]{g7,f8,f7,e7,e6}
+\showfullgoban
+\\\begin{lstlisting}
+I had the cut read out\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 110}
+\end{subsection}
+\begin{subsection}{Fork: Move 114}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 111}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l13,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,l3,l7,l11,m6,m7,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\white[109]{l11}
+\showfullgoban
+\\\begin{lstlisting}
+Now white is DEFINITELY desperate.  This is a crazy move\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 114}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k16,l6,l9,l10,l13,m9,m11,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,k11,l3,l7,l11,m6,m7,m10,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[112]{l10,k11,m9}
+\showfullgoban
+\\\begin{lstlisting}
+Also would have worked\end{lstlisting}
+\end{center}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 117}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k11,k16,l6,l9,l13,m11,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,k12,l3,l7,l11,m6,m7,m10,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[112]{k11,k12}
+\showfullgoban
+\\\begin{lstlisting}
+Pointless\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k11,k13,k16,l6,l9,l10,l13,m11,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,k7,k12,l3,l7,l11,l12,m6,m7,m10,m14,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[112]{k11,k12,l10,l12,k13}
+\showfullgoban
+\\\begin{lstlisting}
+Extra forcing move though\end{lstlisting}
+\end{center}
+\end{section}
+\begin{subsection}{Fork: Move 118}
+\end{subsection}
+\newpage
+\begin{section}{Game: Move 125}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k11,k13,k16,l6,l9,l10,l13,m9,m11,m12,m13,m17,n12,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,j12,k7,k12,l3,l7,l11,l12,m6,m7,m10,m14,n10,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[118]{m9,n10}
+\showfullgoban
+\\\begin{lstlisting}
+Pointless\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k11,k13,k16,l6,l9,l10,l13,m9,m11,m12,m13,m17,n12,o9,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,j12,k7,k12,l3,l7,l11,l12,m6,m7,m10,m14,n9,n10,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[118]{m9,n10,o9,n9}
+\showfullgoban
+\\\begin{lstlisting}
+Pointless of course\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k11,k13,k16,l6,l9,l10,l13,m9,m11,m12,m13,m17,n8,n12,o9,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,j12,k7,k12,l3,l7,l11,l12,m6,m7,m8,m10,m14,n9,n10,n11,n13,n15,o11,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[118]{m9,n10,o9,n9,n8,m8}
+\showfullgoban
+\\\begin{lstlisting}
+White stop it\end{lstlisting}
+\end{center}
+\begin{center}
+\cleargoban
+\black{q16,d4}
+\black{b8,b17,c6,c9,c10,c11,c17,d2,d4,d11,d16,e3,e4,e6,e10,e12,e16,f4,f7,f10,f13,f16,g5,g7,g9,g10,h6,h7,h9,h15,j6,j8,j9,k6,k10,k11,k13,k16,l6,l9,l10,l13,m9,m11,m12,m13,m17,n8,n12,o9,o10,o12,o16,p11,p13,q11,q12,q13,q16,q17,r16,r18}
+\white{c8,c15,c16,d9,d10,d12,d13,d15,e2,e7,e8,e11,f2,f3,f5,f6,f8,f11,f14,g4,g8,g11,g12,g14,h4,h8,h10,h12,h14,j7,j10,j11,j12,k7,k12,l3,l5,l7,l11,l12,m6,m7,m8,m14,n13,n15,o13,o14,p14,q14,r4,r13,r14,r17,s16,s17,s18}
+\black[118]{m9,n10,o9,n9,n8,m8,o10,l5}
+\showfullgoban
+\\\begin{lstlisting}
+Hapoyap [1k]: Thanks
+
+You know, white probably could have kept playing if he was feeling particularly stubborn.  Often stronger players keep playing from a losing position, because they are not 100% convinced the situation is bleak.  Here though, because of the way I played this game, white knows that there is no way I'll let up on him for even a second.  That's why he resigned.
+
+(this is not even sente)\end{lstlisting}
+\end{center}
+\end{section}
+\end{document}
