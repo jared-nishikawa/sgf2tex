@@ -79,7 +79,7 @@ class GoBoard():
 
     def disp(self):
         for row in self.BOARD:
-            print row
+            print(row)
 
 def clean(moves, handi=[]):
     B = GoBoard()
@@ -225,13 +225,13 @@ def test():
     B[4][4] = 1
     B[5][4] = 1
 
-    print get_group(B, 3, 4)
+    print(get_group(B, 3, 4))
 
 if __name__ == '__main__':
     #test()
     moves = [(10,10),(10,11), (3,3), (10,9),(3,4),(9,10), (3,5), (11,10)]
     b,w = clean(moves)
-    print b
-    print w
+    print(b)
+    print(w)
 
 

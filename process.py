@@ -65,8 +65,8 @@ class Node():
 
         conv = [convert(S.loc) for S in mvs]
         #print '\t'*depth, mvs
-        print self.value
-        print '  '*depth, conv
+        #print self.value
+        #print '  '*depth, conv
         raw_input()
         for child in self.children:
             child.disp(depth=depth+1)

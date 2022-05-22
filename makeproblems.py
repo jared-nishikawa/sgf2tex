@@ -1,29 +1,27 @@
 #!/usr/bin/python
 
+'''assumes sgf file has each problem in a different fork
+all labeled with handicap notation (AW and AB)
+'''
+
 import argparse
 import process
 import boardlib
 import re
 
-def _title(PW="White", PB="Black", WR="", BR="", \
-        KM="0", RE="", DT="", SZ="", PC="", RU="", \
-        TM="", OT="",\
-        **kwargs):
+def tex_title(title):
     s = """\
 \\begin{titlepage}
     \\null
     \\vfill
     \\begin{center}
-        \\textbf{1 Dan Problems}\\\\
+        \\textbf{%s}\\\\
     \\end{center}
     \\vfill
 \\end{titlepage}
 \\newpage
-"""
+""" % (title)
     return s
-
-def title(keys):
-    return _title(**keys)
 
 def parse(row):
     pattern = "\(;AW((\[[^\]]*\])*)AB((\[[^\]]*\])*)C\[([^\]]*)\]\)"
@@ -81,7 +79,7 @@ def write_row(row, f, i):
     if headered:
         f.write(footer)
 
-def make(infile, outfile):
+def make(infile, outfile, title):
     with open(infile) as f:
         raw = f.read()
         rows = []
@@ -107,7 +105,7 @@ def make(infile, outfile):
         f.write('}\n')
         f.write('\\begin{document}\n')
     
-        f.write(title(keys))
+        f.write(tex_title(title))
         i = 1
         for row in rows:
             write_row(row, f, i)
@@ -119,8 +117,9 @@ def make(infile, outfile):
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('--infile', '-i', required=True)
+    ap.add_argument('--title', '-t', required=True)
     ap.add_argument('out')
 
     args = ap.parse_args()
     
-    make(args.infile, args.out)
+    make(args.infile, args.out, args.title)
