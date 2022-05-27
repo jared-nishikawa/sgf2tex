@@ -28,7 +28,7 @@ def parse(row):
     m = re.match(pattern, row)
     ws = m.groups()[0].lstrip('[').rstrip(']').split('][')
     bs = m.groups()[2].lstrip('[').rstrip(']').split('][')
-    comment = m.groups()[4]
+    comment = m.groups()[4].split('--')[0].strip()
     return ws, bs, comment
 
 def write_row(row, f, i):
